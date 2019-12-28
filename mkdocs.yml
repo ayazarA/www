@@ -1,4 +1,18 @@
+copyright: "CC-BY-SA-4.0"
+google_analytics: ['UA-155131137-1', 'ayazar.com']
 site_name: Alper Yazar
-theme: cinder
+#site_url: https://www.ayazar.com
+repo_url: https://github.com/alperyazar/www/
+site_description: Personal Site
+site_author: Alper Yazar
+
 markdown_extensions:
   - footnotes
+
+plugins:
+  - search
+  - git-revision-date
+
+theme:
+  name: cinder
+  custom_dir: cinder-theme-ext
