@@ -2,14 +2,14 @@
 
 set -e
 
-CURRDIR=${PWD}
-SITEDIR="${PWD}/../site"
+CURRDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+SITEDIR="${CURRDIR}/../site"
 
 echo "Running Simple Tests..."
 echo "Current Directory: ${CURRDIR}"
 echo "Site Directory: ${SITEDIR}"
 
-source favicon.sh
-source ga.sh
+source "${CURRDIR}/favicon.sh"
+source "${CURRDIR}/ga.sh"
 
 echo "Done with Simple Tests."
