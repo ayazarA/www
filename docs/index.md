@@ -1,4 +1,6 @@
-# Hi
+# About
+
+![Me](img/yuz.png)
 
 I am,
 
@@ -104,17 +106,8 @@ IEEE. [Link](https://doi.org/10.1109/SIU.2015.7130078)
 
 [List of Lecture Notes](/lecture/start)
 
-## Contact
+[^1]: After successful technical examination including originality, application to eligible countries is cancelled due to financial issues.
 
-Click [here](contact) to contact.
-
-İletişim için [tıklayınız.](contact)
-
-## Miscellaneous
-
-- [disclaimer](disclaimer)
-- [license](license)
+---
 
 [Old Pages](https://www.alperyazar.com/old)
-
-[^1]: After successful technical examination including originality, application to eligible countries is cancelled due to financial issues.

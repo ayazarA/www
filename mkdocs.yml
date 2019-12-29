@@ -4,7 +4,7 @@ repo_url: https://github.com/alperyazar/www/
 site_author: Alper Yazar
 site_description: Personal Site
 site_name: Alper Yazar
-#site_url: https://www.ayazar.com
+site_url: http://www.ayazar.com/
 
 markdown_extensions:
   - footnotes
@@ -16,3 +16,8 @@ plugins:
 theme:
   name: cinder
   custom_dir: cinder-theme-ext
+
+nav:
+  - index.md
+  - contact.md
+  - misc/index.md
