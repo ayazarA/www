@@ -8,7 +8,7 @@
 ![Uptime Robot status](https://img.shields.io/uptimerobot/status/m784066757-5d6b061dfaf9531f911b85ca.svg)
 ![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m784066757-5d6b061dfaf9531f911b85ca.svg)
 
-http://www.ayazar.com
+[http://www.ayazar.com](http://www.ayazar.com)
 
 Source code of my website. If you wish you can contribute through pull request.
 
@@ -19,4 +19,4 @@ Source code of my website. If you wish you can contribute through pull request.
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 This project is licensed under CC-BY-SA-4.0 if otherwise stated.
-Check `LICENSE` for further information.
+Check [LICENSE](LICENSE) for further information.
