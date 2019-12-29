@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -e
+
 CURRDIR=${PWD}
 SITEDIR="${PWD}/../site"
 
