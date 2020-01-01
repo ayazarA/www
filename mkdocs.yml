@@ -18,6 +18,12 @@ theme:
   custom_dir: cinder-theme-ext
 
 nav:
-  - index.md
-  - contact.md
-  - misc/index.md
+  - About: index.md
+  - Contact: contact.md
+  - Blog: blog/index.md
+  - Notebook:
+    - Dictionary: nb/dict/index.md
+    - Knowledge Base: nb/kb/index.md
+    - Lecture Notes: nb/l/index.md
+    - Review: nb/r/index.md
+  - Misc.: misc/index.md
