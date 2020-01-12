@@ -2,20 +2,15 @@
 
 ![Me](img/yuz.png)
 
-I am,
+Hi!
 
-- PhD candidate @[EEE (EEM)](http://eee.metu.edu.tr/), [METU (ODTÜ)](https://www.metu.edu.tr/) (2018 - )
-- electronics engineer @ [ASELSAN](http://www.aselsan.com/) (2012 - )
-- co project manager of [ACCLOUD](http://accloud.eee.metu.edu.tr) (2018 - )
+I am **Alper Yazar** and I am **Ph.D. Candidate** and **Electronics Engineer**.
 
-living in [Ankara](https://en.wikipedia.org/wiki/Ankara),
-[Turkey](https://en.wikipedia.org/wiki/Turkey).
-
-[LinkedIn](http://www.linkedin.com/in/alperyazar) [Google Scholar](https://scholar.google.com.tr/citations?hl=tr&user=yLCD7acAAAAJ)
-[Twitter](http://twitter.com/alper_yazar)
-[Facebook](https://www.facebook.com/alperyazarcom)
-[GitHub](https://github.com/alperyazar) [Stack Exchange](http://stackexchange.com/users/1966184/alper-y)
-[YouTube](https://www.youtube.com/user/alperyazar)
+[LinkedIn](http://www.linkedin.com/in/alperyazar), [Google Scholar](https://scholar.google.com.tr/citations?hl=tr&user=yLCD7acAAAAJ),
+[Twitter](http://twitter.com/alper_yazar),
+[Facebook](https://www.facebook.com/alperyazarcom),
+[GitHub](https://github.com/alperyazar), [Stack Exchange](http://stackexchange.com/users/1966184/alper-y),
+[YouTube](https://www.youtube.com/user/alperyazar),
 [Hackaday](http://hackaday.io/ayazar)
 
 ![https://orcid.org/sites/default/files/images/orcid\_16x16.png](https://orcid.org/sites/default/files/images/orcid_16x16.png)
@@ -24,24 +19,29 @@ ORCID: [0000-0002-0904-9623](https://orcid.org/0000-0002-0904-9623)
 ![https://publons.com/static/images/badge/rid\_badge\_small.png](https://publons.com/static/images/badge/rid_badge_small.png)
 Publons: [E-7451-2019](https://publons.com/researcher/E-7451-2019/)
 
-## Previously
 
-- **2018**: PhD student @ [EEE](http://eee.metu.edu.tr/),
-  [METU](https://www.metu.edu.tr/) 2016-2018.
-- **2015**: M.Sc. in [Electrical and Electronics
-  Engineering](http://eee.metu.edu.tr/), [Middle East Technical
-  University](https://www.metu.edu.tr/), Ankara, Turkey. Thesis Title:
-  Application of F-test Method on Model Order Selection and Related
-  Problems
-- **2012**: B.Sc. in [Electrical and Electronics
-  Engineering](http://eee.metu.edu.tr/), [Middle East Technical
-  University](https://www.metu.edu.tr/), Ankara, Turkey.
-  Specialization in Computers and Telecommunications
+## Education
 
-lived in [Bursa](https://en.wikipedia.org/wiki/Bursa),
-[Turkey](https://en.wikipedia.org/wiki/Turkey).
+- **Ph.D.**, Electrical and Electronics Engineering, Middle East Technical University (METU), Ankara, TURKEY, **2022 (Expected)**. CGPA: 3.75/4.00
+    - Area of Study: Heterogeneous Architectures, Accelerated Clouds
+    - Advisor: [Prof. Ece Güran Schmidt](http://users.metu.edu.tr/eguran)
+    - Minor Field: Telecommunication
+  - **M.Sc**., Electrical and Electronics Engineering, Middle East Technical University (METU), Ankara, TURKEY, **2015**. CGPA: 3.64/4.00
+    - Thesis Topic: Application of F-test Method on Model Order Selection and Related Problems. [Link](http://library.metu.edu.tr/search~S4?/cV.EE+.15-53/cv.ee+.15+53/-3%2C-1%2C0%2CE/frameset&FF=cv.ee+.15+53&1%2C1%2C)
+    - Advisor: [Prof. Cagatay Candan](http://users.metu.edu.tr/ccandan)
+    - Area of Study: Statistical Signal Processing
+  - **B.Sc.**, Electrical and Electronics Engineering, Middle East Technical University (METU), Ankara, TURKEY, **2012**. CGPA: 3.93/4.00
+    - Specialization: Computers and Telecommunication
 
-## Patent
+## Professional Experience
+
+- **Project Co-manager.** [ACCLOUD](http://accloud.eee.metu.edu.tr), **April 2018 to present.**
+- **Digital Design Specialist Engineer.** ASELSAN, Ankara, TURKEY, **July 2016 to present.**
+- **Digital Design Engineer.** ASELSAN, Ankara, TURKEY, **August 2012 to July 2016.**
+- **Intern.** ASELSAN, Ankara, TURKEY, **June 2011 to July 2011.**
+- **Intern.** Bosch Rexroth, Bursa, TURKEY, **June 2010 to July 2010.**
+
+## Patents
 
 - **Yazar, A.** Düşük Sızıntı Akımlı Anlık Tetik Girişli
   Yapılandırılabilir Mandal Devresi. TR 2016 09051 B
@@ -49,7 +49,14 @@ lived in [Bursa](https://en.wikipedia.org/wiki/Bursa),
   and Instant Trigger Input. PCT/TR2017/050233, WO/2018/004496 [^1]
   [Link](https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2018004496)
 
-## Publication
+## Publications
+
+### Thesis
+
+- M.Sc. **Yazar, A.** (2015). Application Of F-Test Method On Model
+  Order Selection And Related Problems (Middle East Technical
+  University).
+[Link](http://library.metu.edu.tr/search~S4?/cV.EE+.15-53/cv.ee+.15+53/-3%2C-1%2C0%2CE/frameset&FF=cv.ee+.15+53&1%2C1%2C)
 
 ### Conference
 
@@ -91,23 +98,113 @@ selection for linear signal models. In 2015 23nd Signal Processing
 and Communications Applications Conference (SIU) (pp. 1301-1304).
 IEEE. [Link](https://doi.org/10.1109/SIU.2015.7130078)
 
-### Thesis
+### Poster
 
-- **M.Sc.** YAZAR, A. (2015). APPLICATION OF F-TEST METHOD ON MODEL
-  ORDER SELECTION AND RELATED PROBLEMS (MIDDLE EAST TECHNICAL
-  UNIVERSITY).
-[Link](http://library.metu.edu.tr/search~S4?/cV.EE+.15-53/cv.ee+.15+53/-3%2C-1%2C0%2CE/frameset&FF=cv.ee+.15+53&1%2C1%2C)
+- **Yazar, A.**, Candan, Ç. (2015, March). Model Order Selection Using F-Test.
+In 2015 METU EEE Graduate Research Workshop (GRW).
 
-## Project
+### Other
 
-[List of Projects](/project/start)
+- **Yazar, A.** (2017) Compiled Lecture Notes of EE533 Information Theory.
+[Link](/dow/ee533_information_theory_alper_yazar.pdf).
+- **Yazar, A.** (2014) Compiled Lecture Notes of EE604 Sensor Array Signal Processing.
+[Link](/dow/ee604_sensor_array_signal_processing_alper_yazar.pdf).
 
-## Lecture Note
+## Awards and Honors
 
-[List of Lecture Notes](/lecture/start)
+- **2012-2015.** TUBITAK 2228-National MSc and PhD Scholarship Programme for Senior Undergraduate Students
+- **2011.** Capstone Design Project Honorable Mention Award
+- **2011.**  Bulent Kerim Altay Award. [About](http://bka.eee.metu.edu.tr/)
+- **2011.**  Bulent Kerim Altay Award. [About](http://bka.eee.metu.edu.tr/)
+- **2010.**  Bulent Kerim Altay Award. [About](http://bka.eee.metu.edu.tr/)
+- **2010.**  Bulent Kerim Altay Award. [About](http://bka.eee.metu.edu.tr/)
+- **2008.**  Bulent Kerim Altay Award. [About](http://bka.eee.metu.edu.tr/)
+- **2008-2011.** Dean’s List.
 
-[^1]: After successful technical examination including originality, application to eligible countries is cancelled due to financial issues.
+## Projects
+
+### Funded
+
+- **2018-present.** Project co-manager of [ACCLOUD](http://accloud.eee.metu.edu.tr)
+
+### Hobby
+
+- [SSTBIOSProg](/project/sstbiosprog) (incomplete, abandoned)
+- [IBTC](/project/ibtc) (incomplete, abandoned)
+- [Sureli2Calibre](/project/sureli2calibre) (completed)
+- [aPCMeter](/project/apcmeter) (completed)
+- [isoUSBRS422](/project/isousbrs422) (completed)
+- [FPGA232KU](/project/fpga232ku) (completed)
+- [devre.org, devreler.org](/project/devreorg-devrelerorg) (incomplete, old)
+- [NASuX, nasux.org](/project/nasux) (incomplete, old)
+- [devrelerhakkinda.com](/project/devrelerhakkinda) (old)
+- [kapasitans.com](/project/kapasitans) (incomplete, old)
+- [izoyazilim.com](/project/izoyazilim) (incomplete, old)
+- [izoelektronik.com](/project/izoelektronik) (old)
+
+### Class
+
+- **Ph.D.**, METU
+    - **EE542 Computer Networks.** Evaluation and minor improvements on ClassBench
+    - **CENG513 Wireless Communication and Networks.**  A load balancing algorithm for multi-user multiple access point wireless networks
+- **M.Sc.**, METU
+    - **EE604 Sensor Array Signal Processing.** Implementation and evaluation of two source localization methods on MATLAB: Triangulation and RSS
+- **B.Sc.**, METU
+    - **EE493, EE494 Engineering Design.**  Being a member of a team with four members, designed a voice controlled car
+      capable of auto collision avoidance. Speech processing was done using MATLAB on a PC. Commands were transferred to car over RF channel. An RF
+      communication protocol was developed top on FSK modulation.
+    - **EE430 Digital Signal Processing.** Designed and implemented FSK based communication system over acoustic air
+      channel using MATLAB and standard microphone/speaker of a PC.
+    - **EE314 Digital Electronics Laboratory.** Designed clone of "Space Invaders" game on FPGA board with VGA output
+      using Verilog as HDL an XilinX ISE tools.
+    - **EE313 Analog Electronics Laboratory.** Designed an OPAMP using discrete transistors and passives.
+    - **EE214 Electronic Circuits Laboratory.** Designed a DC-DC boost converter using discrete components.
+    - **EE213 Electrical Circuits Laboratory.** Designed RGB color sensor using OPAMPs and discrete components
+
+## Trainings
+
+### w/ Certificate
+
+#### Class
+
+- **2018.** FreeRTOS Real-Time Programming. Doulos, 3 days.
+- **2017.** Developing with Embedded Linux. Doulos, 4 days.
+- **2016.** The Programmable Logic Training Course Professional ZYNQ. PLC2, 5 days.
+- **2016.** The Programmable Logic Training Course Professional VHDL. PLC2, 5 days.
+- **2014.** Mentor Graphics DxDesigner Training Course. CDT on behalf of Mentor Graphics, 2.5 days.
+- **2014.** EMC Seminar. Wurth Elektronik GmbH, 1 day.
+- **2014.** Power Seminar. Linear Technology, 1 day.
+- **2013.** C6000 Embedded Design Workshop using BIOS, Texas Instruments, 5 days.
+
+### w/o Certificate
+
+#### Class
+
+- **2016.** Power and Analog Applications, EMPA on behalf of Texas Instruments, 1 day.
+- **2016.** Basics of VxWorks, ASELSAN, 5 days.
+- **2016.** Vivado HLS, PLC2, 1 day.
+- **2015.** Mentor Graphics Workshop Day, CDT, 1 day.
+- **2015.** Easy Start FPGA, PLC2, 1 day.
+- **2014.** Mentor Grapgics Workshop Day, CDT, 1 day.
+
+#### Online
+
+To be written...
+
+## Memberships
+
+- **Past.** IEEE
+- **Past.** IEEE Robotics and Automation Society
+- **Past.** IEEE Signal Processing Society
+- **Past.** [IEEE ODTÜ](http://www.ieee.metu.edu.tr)
+- **Past.** [ODTÜ KTMT](https://www.odtuktmt.com/)
+
+## Personal Activities
+
+- Trying playing various musical instruments
 
 ---
 
 [Old Pages](https://www.alperyazar.com/old)
+
+[^1]: After successful technical examination including originality, application to eligible countries is cancelled due to financial issues.

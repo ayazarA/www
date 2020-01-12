@@ -22,8 +22,10 @@ nav:
   - Contact: contact.md
   - Blog: blog/index.md
   - Notebook:
-    - Wiki: nb/wiki/index.md
+    - Dictionary: nb/d/index.md
     - Knowledge Base: nb/kb/index.md
-    - Lecture Notes: nb/l/index.md
+    - Notes:
+      - Lecture Notes: nb/n/l/index.md
     - Review: nb/r/index.md
+    - Lists: nb/l/index.md
   - Misc.: misc/index.md
