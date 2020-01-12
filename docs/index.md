@@ -159,7 +159,7 @@ In 2015 METU EEE Graduate Research Workshop (GRW).
       using Verilog as HDL an XilinX ISE tools.
     - **EE313 Analog Electronics Laboratory.** Designed an OPAMP using discrete transistors and passives.
     - **EE214 Electronic Circuits Laboratory.** Designed a DC-DC boost converter using discrete components.
-    - **EE213 Electrical Circuits Laboratory.** Designed RGB color sensor using OPAMPs and discrete components
+    - **EE213 Electrical Circuits Laboratory.** Designed RGB color sensor using OPAMPs and discrete components.
 
 ## Trainings
 
