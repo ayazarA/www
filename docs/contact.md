@@ -1,7 +1,7 @@
 # Contact [EN]
 
 Please create an [GitHub issue](https://github.com/alperyazar/www/issues)
-for questions related a content on the site, correction suggestions,
+for questions related about content on the site, correction suggestions,
 public questions.
 
 For other cases, please send an e-mail:
