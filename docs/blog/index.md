@@ -14,3 +14,4 @@
 ## 2014
 
 * [235.000’in 9.000’e Tam Olarak Bölünmemesi](2014-12-20-hababam-sinifi-bolme.md)
+* [Windows’’un Sunduğu “Hazırda Beklet” ve “Uyku” Seçeneklerini Sürekli Ters Algılamam](2014-08-20-windows-hazirda-beklet-uyku.md)
