@@ -4,10 +4,12 @@
         79,
         80
     ],
-    "cSpell.userWords": [
-        "combinational",
-        "microarchitecture"
-    ],
     "editor.renderWhitespace": "all",
-    "cSpell.language": "en-US,tr-TR"
+    "cSpell.language": "en-US,tr-TR",
+    "cSpell.words": [
+        "combinational",
+        "disketimizi",
+        "masaüstümüzde",
+        "microarchitecture"
+    ]
 }
