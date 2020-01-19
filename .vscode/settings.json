@@ -1,0 +1,13 @@
+{
+    "files.eol": "\n",
+    "editor.rulers": [
+        79,
+        80
+    ],
+    "cSpell.userWords": [
+        "combinational",
+        "microarchitecture"
+    ],
+    "editor.renderWhitespace": "all",
+    "cSpell.language": "en-US,tr-TR"
+}
