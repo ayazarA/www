@@ -19,6 +19,9 @@ ORCID: [0000-0002-0904-9623](https://orcid.org/0000-0002-0904-9623)
 ![https://publons.com/static/images/badge/rid\_badge\_small.png](https://publons.com/static/images/badge/rid_badge_small.png)
 Publons: [E-7451-2019](https://publons.com/researcher/E-7451-2019/)
 
+## Contact
+
+Please visit [Contact](contact.md) page.
 
 ## Education
 
