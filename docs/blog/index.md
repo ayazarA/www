@@ -6,4 +6,5 @@
 
 ## 2019
 
+* [Dokuwiki ile Blog Deneme](./2019-11-19-dokuwiki-blog-deneme.md)
 * [Yazamayanlara](./2019-09-05-yazamayanlara.md)
