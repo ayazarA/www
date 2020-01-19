@@ -24,8 +24,7 @@ nav:
   - Notebook:
     - Dictionary: nb/d/index.md
     - Knowledge Base: nb/kb/index.md
-    - Notes:
-      - Lecture Notes: nb/n/l/index.md
+    - Notes: nb/n/index.md
     - Review: nb/r/index.md
     - Lists: nb/l/index.md
   - Misc.: misc/index.md
