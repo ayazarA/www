@@ -16,4 +16,4 @@ ile ilgili düzeltme önerileriniz için lütfen [GitHub issue](https://github.c
 
 Diğer durumlarda lütfen e-posta gönderiniz:
 
-a `!` `!` `!` `!`y`!` `!` `!` `!`@gmail.com (**`!`ları adım ve soyadımdaki karakterlere değiştirmeyi UNUTMAYINIZ.**)
+a `!` `!` `!` `!`y`!` `!` `!` `!`@gmail.com (**`!`leri adım ve soyadımdaki karakterlere değiştirmeyi UNUTMAYINIZ.**)
