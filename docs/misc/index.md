@@ -1,4 +1,4 @@
 # Miscellaneous
 
-- [disclaimer](disclaimer)
+- [Disclaimer](disclaimer)
 - [License](license)
