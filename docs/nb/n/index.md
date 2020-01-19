@@ -1,3 +1,3 @@
 # Notes
 
-* [Lecture Notes](./l/index.md)
+* [Lecture Notes](./l)

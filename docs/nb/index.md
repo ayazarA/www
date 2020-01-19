@@ -1,3 +1,7 @@
 # Notebook
 
-* [Dictionary](./dict)
+* [Dictionary](./d)
+* [Knowledge Base](./kb)
+* [Lists](./l)
+* [Notes](./n)
+* [Review](./r)
