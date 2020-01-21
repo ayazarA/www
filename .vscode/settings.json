@@ -5,6 +5,12 @@
         80
     ],
     "editor.renderWhitespace": "all",
+    "markdownlint.config": {
+        "default": true,
+        "MD013": false,
+        "MD014": false,
+        "MD036":false
+    },
     "cSpell.language": "en-US,tr-TR",
     "cSpell.words": [
         "combinational",
