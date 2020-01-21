@@ -15,6 +15,9 @@ plugins:
 theme:
   name: cinder
   custom_dir: cinder-theme-ext
+  highlightjs: true
+  hljs_languages:
+    - matlab
 
 nav:
   - About: index.md

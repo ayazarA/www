@@ -5,3 +5,4 @@
 * [Ubuntu Üzerinde Disket Sürücüsünü Kullanma (215-2-19740315)](215-2-19740315-ubuntu-disket-surucusu-kullanma.md)
 * [Camcorder DVD Video Recovery on Ubuntu with photorec (215-2-19091307)](215-2-19091307-photorec.md)
 * [Install DokuWiki without Mail Support (215-2-19026219)](215-2-19026219-dokuwiki-without-mail-support.md)
+* [Türkçe Ubuntu Üzerinde MATLAB Çalıştırma Problemi ve Çözümü (215-2-18288292)](215-2-18288292-turkce-ubuntu-uzerinde-matlab-calistirma.md)
