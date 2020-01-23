@@ -3,7 +3,7 @@ date: 2014-08-20
 ---
 # Windows’’un Sunduğu “Hazırda Beklet” ve “Uyku” Seçeneklerini Sürekli Ters Algılamam
 
-![Windows Seçenekleri ](/img/blog/2014-08-20-a.png)
+![Windows Seçenekleri ](img/2014-08-20-a.png)
 
 *Windows Seçenekleri*
 
