@@ -1,6 +1,6 @@
 # About
 
-![Me](/img/yuz.png)
+![Me](img/yuz.png)
 
 Hi!
 

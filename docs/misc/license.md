@@ -1,8 +1,8 @@
 # License
 
-![Free Cultural Work](/img/freecultural.png)
+![Free Cultural Work](img/freecultural.png)
 
-![CC-BY-SA-4.0](/img/ccbysa4_mini.png)
+![CC-BY-SA-4.0](img/ccbysa4_mini.png)
 
 All materials are licensed under CC-BY-SA-4.0 if otherwise stated. This license permits you to share and adapt the work if you follow license conditions. You don’t need to ask permission if you obey license rules.
 
