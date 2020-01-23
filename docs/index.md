@@ -109,9 +109,9 @@ In 2015 METU EEE Graduate Research Workshop (GRW).
 ### Other
 
 - **Yazar, A.** (2017) Compiled Lecture Notes of EE533 Information Theory.
-[Link](/dow/ee533_information_theory_alper_yazar.pdf).
+[Link](nb/n/l/ee533.md).
 - **Yazar, A.** (2014) Compiled Lecture Notes of EE604 Sensor Array Signal Processing.
-[Link](/dow/ee604_sensor_array_signal_processing_alper_yazar.pdf).
+[Link](nb/n/l/ee604.md).
 
 ## Awards and Honors
 
