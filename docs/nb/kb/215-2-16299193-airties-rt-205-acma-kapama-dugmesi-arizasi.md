@@ -8,7 +8,7 @@ date: 2011-02-16
 
 Yanlış hatırlamıyorsam bu modemi 2008 yılı sonunda almıştım. Modemi evde kullanıyorum. **Evdeki interneti günde yaklaşık 5 - 6 saat kullandığım için modemi sürekli açık tutmuyorum. Evdeki 1 Mbit 4 GB kotalı internet ile zaten öyle adam gibi dosya indirmek mümkün olmuyor. Bu internete 30 TL’ye yakın ücret ödüyoruz ya, o da ayrı bir konu.** Neyse, modemi sürekli açık tutmamak için arkasındaki açma kapama düğmesinden kapatıp açıyorum (günde 2 veya 3 defa). Daha doğrusu kapatıp açıyordum. Yaklaşık 150 TL saydığımız [AirTies RT-205](http://www.airties.com/product-details.asp?pn=RT-205&amp;dil=tr) modem yaklaşık 1 - 2 hafta sonra su koyvermeye başladı. Arkadaki açma - kapama düğmesi arıza sinyalleri vermeye başladı.
 
-![AirTies RT-205 Arka Görüntüsü](/img/kb/215-2-16299193-a.jpg)
+![AirTies RT-205 Arka Görüntüsü](img/215-2-16299193-a.jpg)
 
 *AirTies RT-205 Arka Görüntüsü*
 
@@ -30,13 +30,13 @@ Son günlerde düğme iyice bozuldu. Artık cihaz çalışırken durup dururken 
 
 Modemi açmak için öncelikle alt kısmında bulunan, aşağıda kırmızı halkalar ile işaretlediğim yapışkanlı kısımları kaldırmanız gerekiyor. Tornavida yardımıyla rahat bir şekilde yapışkanlı kısmı kaldırabilirsiniz. Modemi toparladıktan sonra tekrar takmak için kaybetmemekte fayda var. Daha sonra söktüğünüz kısımların altında birer tane vida göreceksiniz, sökün.
 
-![AirTies RT-205 Alt Görüntüsü](/img/kb/215-2-16299193-b.jpg)
+![AirTies RT-205 Alt Görüntüsü](img/215-2-16299193-b.jpg)
 
 *AirTies RT-205 Alt Görüntüsü*
 
 Modemin kutusunu açarken dikkatli olmakta fayda var. Çünkü antenlere giden kablolar bulunuyor. Kartı kutudan tamamen ayırmak için kartı, kutuya bağlayan vidaları (Bende 3 tane vardı.) da sökün. Şöyle bir kart ile karşı karşıya kalacaksınız:
 
-![AirTies RT-205 Kart](/img/kb/215-2-16299193-c.jpg)
+![AirTies RT-205 Kart](img/215-2-16299193-c.jpg)
 
 *AirTies RT-205 Kart*
 
@@ -44,25 +44,25 @@ Modemin kutusunu açarken dikkatli olmakta fayda var. Çünkü antenlere giden k
 
 Elimde düğme yerine takabileceğim herhangi bir düğme olmadığı için ben düğmeyi devre dışı bırakıp, cihazı düğmeden bağımsız olarak açık kalmasını sağlamak istedim. Bunun için düğmenin iki adet pini kısa devre etmek yeterlidir. Evde olduğum için elimde bir multimetre bile yoktu. Multimetre, bir elektronikçinin adeta gözü olduğu için ekipman sıkıntımın olduğu bir gerçek. :) Neyse ki havya, lehim ve lehim pompası vardı ve multimetresiz hangi pinleri kullanacağımı bulabildim.
 
-![Havya, Lehim ve Lehim Pompası](/img/kb/215-2-16299193-d.jpg)
+![Havya, Lehim ve Lehim Pompası](img/215-2-16299193-d.jpg)
 
 *Havya, Lehim ve Lehim Pompası*
 
 Arkadaki düğmeyi devre dışı bırakıp, cihazı sürekli açık tutmak için kısa devre etmemiz gereken pinleri ise aşağıdaki resimde kırmızı dikdörtgen içine aldım.
 
-![AirTies RT-205 Kısa Devre Edilecek Düğme Pinleri](/img/kb/215-2-16299193-e.jpg)
+![AirTies RT-205 Kısa Devre Edilecek Düğme Pinleri](img/215-2-16299193-e.jpg)
 
 *AirTies RT-205 Kısa Devre Edilecek Düğme Pinleri*
 
 Eğer lehim yapma tecrübeniz varsa bu iki pini kısa devre etmek zor olmayacaktır. Sonuç:
 
-![AirTies RT-205 Kısa Devre Edilmiş Açma – Kapama Düğmesi](/img/kb/215-2-16299193-f.jpg)
+![AirTies RT-205 Kısa Devre Edilmiş Açma – Kapama Düğmesi](img/215-2-16299193-f.jpg)
 
 *AirTies RT-205 Kısa Devre Edilmiş Açma – Kapama Düğmesi*
 
 ### Mutlu Son
 
-![Kısa Devre Edilmiş Düğme ile Çalışan Modem](/img/kb/215-2-16299193-g.jpg)
+![Kısa Devre Edilmiş Düğme ile Çalışan Modem](img/215-2-16299193-g.jpg)
 
 *Kısa Devre Edilmiş Düğme ile Çalışan Modem*
 

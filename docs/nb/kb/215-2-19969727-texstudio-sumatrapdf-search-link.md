@@ -12,13 +12,13 @@ Given steps are tested by using **TeXstudio 2.10.8** and **SumatraPDF v3.1.1 64-
 
 1- Open TexStudio. Navigate **Options** → **Configure TeXstutdio…**
 
-![Configure TeXstudio…](/img/kb/215-2-19969727-a.png)
+![Configure TeXstudio…](img/215-2-19969727-a.png)
 
 *Configure TeXstudio…*
 
 2- Click **Commands** tab, and find **External PDF Viewer** option.
 
-![External PDF Viewer…](/img/kb/215-2-19969727-b.png)
+![External PDF Viewer…](img/215-2-19969727-b.png)
 
 *External PDF Viewer…*
 
@@ -35,13 +35,13 @@ You should put **your** path to SumatraPDF.exe between quotation marks.
 
 4- Click **Build** tab, find **PDF Viewer** option and change it to **External PDF Viewer.**
 
-![Use External PDF Viewer](/img/kb/215-2-19969727-c.png)
+![Use External PDF Viewer](img/215-2-19969727-c.png)
 
 *Use External PDF Viewer*
 
 5- On the same windows, locate **User Commands** tab.
 
-![User Commands](/img/kb/215-2-19969727-d.png)
+![User Commands](img/215-2-19969727-d.png)
 
 *User Commands*
 
@@ -63,13 +63,13 @@ Click **OK**
 
 6- Now let’s open **Options** → **Configure TeXstutdio…** again and select **Shortcuts** tab. Expand **Menus** → **Tools** → **User** tree. Now you should see a user command called **Forward Search**. Now its default shortcut is **Alt+Shift+F1**. But you can also assign another shortcut to forward search like **F2**. But this step is optional.
 
-![User Commands Shortcut](/img/kb/215-2-19969727-e.png)
+![User Commands Shortcut](img/215-2-19969727-e.png)
 
 *User Commands Shortcut*
 
 7- Now we are done with TeXstudio. Let’s set up SumatraPDF. Open SumatraPDF. Click **Settings** → **Options**.
 
-![Sumatra Settings](/img/kb/215-2-19969727-f.png)
+![Sumatra Settings](img/215-2-19969727-f.png)
 
 *Sumatra Settings*
 
@@ -90,7 +90,7 @@ You should put **your** path to SumatraPDF.exe between quotation marks.
 
 This command will open SumatraPDF but it will give a loading error. This isn’t important. Now open options again and you should see the inverse search option as given below.
 
-![Sumatra Inverse Search](/img/kb/215-2-19969727-g.png)
+![Sumatra Inverse Search](img/215-2-19969727-g.png)
 
 *Sumatra Inverse Search*
 
