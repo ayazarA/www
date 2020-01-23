@@ -21,6 +21,7 @@ theme:
   highlightjs: true
   hljs_languages:
     - matlab
+    - latex
 
 nav:
   - About: index.md

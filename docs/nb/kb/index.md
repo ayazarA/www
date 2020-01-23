@@ -6,3 +6,4 @@
 * [Camcorder DVD Video Recovery on Ubuntu with photorec (215-2-19091307)](215-2-19091307-photorec.md)
 * [Install DokuWiki without Mail Support (215-2-19026219)](215-2-19026219-dokuwiki-without-mail-support.md)
 * [Türkçe Ubuntu Üzerinde MATLAB Çalıştırma Problemi ve Çözümü (215-2-18288292)](215-2-18288292-turkce-ubuntu-uzerinde-matlab-calistirma.md)
+* [LaTeX’te Otomatik Hecelemeyi Kapatma (215-2-18240942)](215-2-18240942-latex-otomatik-hecelemeyi-kapatma.md)
