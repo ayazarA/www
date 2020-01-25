@@ -1,4 +1,6 @@
-# Contact [EN]
+# Contact / İletişim
+
+## [EN]
 
 Please create an [GitHub issue](https://github.com/alperyazar/www/issues)
 for questions related about content on the site, correction suggestions,
@@ -8,7 +10,7 @@ For other cases, please send an e-mail:
 
 a `!` `!` `!` `!`y`!` `!` `!` `!`@gmail.com (**DON'T FORGET to replace `!`s with characters in my name and surname.**)
 
-# İletişim [TR]
+## [TR]
 
 Açık sorulabilecek sorularınız, site ile ilgili sorularınız veya site içeriği
 ile ilgili düzeltme önerileriniz için lütfen [GitHub issue](https://github.com/alperyazar/www/issues)

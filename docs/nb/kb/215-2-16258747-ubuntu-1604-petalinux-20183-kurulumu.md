@@ -121,7 +121,7 @@ LICENSE AGREEMENTS
 PetaLinux SDK contains software from a number of sources.  Please review
 the following licenses and indicate your acceptance of each to continue.
 
-You do not have to accept the licenses, however if you do not then you may 
+You do not have to accept the licenses, however if you do not then you may
 not use PetaLinux SDK.
 
 Use PgUp/PgDn to navigate the license viewer, and press 'q' to close

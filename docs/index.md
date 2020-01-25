@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD005 MD007 -->
 # About
 
 ![Me](img/yuz.png)
