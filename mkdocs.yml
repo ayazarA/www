@@ -1,7 +1,7 @@
 copyright: "License: <a href='https://creativecommons.org/licenses/by-sa/4.0/'>CC-BY-SA-4.0</a>"
 repo_url: https://github.com/alperyazar/www/
 site_author: Alper Yazar
-site_description: Personal Site
+# site_description: Personal Site !! Not used to use custom meta description code.
 site_name: Alper Yazar
 site_url: http://www.ayazar.com/
 

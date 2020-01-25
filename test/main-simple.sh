@@ -12,5 +12,6 @@ echo "Site Directory: ${SITEDIR}"
 source "${CURRDIR}/favicon.sh"
 source "${CURRDIR}/ga.sh"
 source "${CURRDIR}/robotstxt.sh"
+source "${CURRDIR}/metadesc.sh"
 
 echo "Done with Simple Tests."
