@@ -7,3 +7,4 @@
 ## TR
 
 * [Altera DE0 FPGA Geliştirme Kiti](altera-de0-fpga-gelistirme-kiti.md)
+* [Ninite](ninite.md)
