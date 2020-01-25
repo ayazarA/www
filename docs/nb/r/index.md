@@ -1,4 +1,4 @@
-# Review - İnceleme
+# Reviews - İncelemeler
 
 ## EN
 
