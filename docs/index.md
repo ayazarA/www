@@ -131,7 +131,7 @@ In 2015 METU EEE Graduate Research Workshop (GRW).
 
 ### Funded
 
-- **2018-present.** Project co-manager of [ACCLOUD](http://accloud.eee.metu.edu.tr)
+- **2018-present.** Project co-manager of [ACCLOUD](project/accloud/index.md)
 
 ### Hobby
 
