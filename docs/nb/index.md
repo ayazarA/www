@@ -1,7 +1,7 @@
 # Notebook
 
-* [Dictionary](./d)
-* [Knowledge Base](./kb)
-* [Lists](./l)
-* [Notes](./n)
-* [Review](./r)
+* [Dictionary](d/index.md)
+* [Knowledge Base](kb/index.md)
+* [Lists](l/index.md)
+* [Notes](n/index.md)
+* [Review](r/index.md)
