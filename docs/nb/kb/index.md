@@ -10,3 +10,4 @@
 * [AirTies RT-205 Açma - Kapama Düğmesi Arızası (215-2-16299193)](215-2-16299193-airties-rt-205-acma-kapama-dugmesi-arizasi.md)
 * [Ubuntu 16.04.5 Üzerinde Petalinux 2018.3 Kurulumu (215-2-16258747)](215-2-16258747-ubuntu-1604-petalinux-20183-kurulumu.md)
 * [Atari Kolu (NES Controller) Arayüzü (215-2-13197405)](215-2-13197405-atari-kolu-nes-controller.md)
+* [Tensorflow (NVIDIA GPU Desteği ile) ve Keras Kurulumu (215-2-10013636)](215-2-10013636-tensorflow-nvidia-keras-kurulumu.md)
