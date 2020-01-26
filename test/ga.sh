@@ -14,7 +14,7 @@ if [ ! -s "$FILE" ]; then
 	echo "ERROR: ${TESTNAME}"
 	exit 1
 else
-	grep ${TEXT} ${FILE}
+	grep "${TEXT}" "${FILE}"
 	if [ ! $? -eq 0 ]; then
 		echo "${TEXT} not found in ${FILE}"
 		echo "ERROR: ${TESTNAME}"
