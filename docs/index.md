@@ -138,7 +138,7 @@ In 2015 METU EEE Graduate Research Workshop (GRW).
 
 ### Hobby
 
-- [SSTBIOSProg](/project/sstbiosprog) (incomplete, abandoned)
+- [SSTBIOSProg](project/sstbiosprog/index.md) (completed, abandoned)
 - [IBTC](/project/ibtc) (incomplete, abandoned)
 - [Sureli2Calibre](/project/sureli2calibre) (completed)
 - [aPCMeter](/project/apcmeter) (completed)
