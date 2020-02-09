@@ -140,7 +140,7 @@ In 2015 METU EEE Graduate Research Workshop (GRW).
 
 - [SSTBIOSProg](project/sstbiosprog/index.md) (completed, abandoned)
 - [İBTÇ](project/ibtc/index.md) (tamamlandı, terk edildi)
-- [Sureli2Calibre](/project/sureli2calibre) (completed)
+- [Sureli2Calibre](project/sureli2calibre/index.md) (completed)
 - [aPCMeter](/project/apcmeter) (completed)
 - [isoUSBRS422](/project/isousbrs422) (completed)
 - [FPGA232KU](/project/fpga232ku) (completed)
