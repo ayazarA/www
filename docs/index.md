@@ -45,8 +45,7 @@ Publons: [E-7451-2019](https://publons.com/researcher/E-7451-2019/)
 ## Professional Experience
 
 - **Project Co-manager.** [ACCLOUD](http://accloud.eee.metu.edu.tr), **April 2018 to present.**
-- **Digital Design Specialist Engineer.** ASELSAN, Ankara, TURKEY, **July 2016 to present.**
-- **Digital Design Engineer.** ASELSAN, Ankara, TURKEY, **August 2012 to July 2016.**
+- **Electronics Engineer.** ASELSAN, Ankara, TURKEY, **August 2012 to present.**
 - **Intern.** ASELSAN, Ankara, TURKEY, **June 2011 to July 2011.**
 - **Intern.** Bosch Rexroth, Bursa, TURKEY, **June 2010 to July 2010.**
 
