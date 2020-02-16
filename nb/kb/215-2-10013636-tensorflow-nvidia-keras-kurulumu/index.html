@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="author" content="Alper Yazar">
+    <link rel="canonical" href="http://www.ayazar.com/nb/kb/215-2-10013636-tensorflow-nvidia-keras-kurulumu/">
+    <link rel="../../../img/favicon.ico">
+
+    
+    <title>Tensorflow (NVIDIA GPU Desteği ile) ve Keras Kurulumu (215-2-10013636) - Alper Yazar</title>
+    
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css">
+    <link href='//rsms.me/inter/inter.css' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../../../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="../../../css/base.min.css" rel="stylesheet">
+    <link href="../../../css/cinder.min.css" rel="stylesheet">
+
+    
+        
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/styles/github.min.css">
+        
+    
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+        <![endif]-->
+
+    
+    <script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-155131137-1', 'ayazar.com');
+    ga('send', 'pageview');
+    </script>
+    
+
+    
+
+
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            <a class="navbar-brand" href="../../..">Alper Yazar</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="../../..">About</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../../../contact/">Contact - İletişim</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../../../blog/">Blog</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Notebook <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../d/">Dictionary</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../">Knowledge Base</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../n/">Notes</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../r/">Reviews - İncelemeler</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../l/">Lists</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../../../misc/">Misc.</a>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fas fa-search"></i> Search
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/alperyazar/www/edit/master/docs/nb/kb/215-2-10013636-tensorflow-nvidia-keras-kurulumu.md"><i class="fab fa-github"></i> Edit on GitHub</a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#tensorflow-nvidia-gpu-destegi-ile-ve-keras-kurulumu-215-2-10013636">Tensorflow (NVIDIA GPU Desteği ile) ve Keras Kurulumu (215-2-10013636)</a></li>
+            <li class="second-level"><a href="#windows-10-icin">Windows 10 İçin</a></li>
+                
+            <li class="second-level"><a href="#windows-7-icin">Windows 7 İçin</a></li>
+                
+                <li class="third-level"><a href="#nvidia-araclarnn-kurulumu">Nvidia Araçlarının Kurulumu</a></li>
+                <li class="third-level"><a href="#python">Python</a></li>
+                <li class="third-level"><a href="#tensorflow">Tensorflow</a></li>
+                <li class="third-level"><a href="#keras">Keras</a></li>
+            <li class="second-level"><a href="#hata-ayklama">Hata Ayıklama</a></li>
+                
+                <li class="third-level"><a href="#tensorflow_self_checkpy-ile-cudnn-hatas-alnmas">tensorflow_self_check.py ile CuDNN Hatası Alınması</a></li>
+                <li class="third-level"><a href="#tensorflowun-islem-yapmaya-basladg-srada-windowsun-ekran-kartnn-ckarlamayacagn-soylemesi-ve-taklmas">Tensorflow'un İşlem Yapmaya Başladığı Sırada Windows'un Ekran Kartının Çıkarılamayacağını Söylemesi ve Takılması</a></li>
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
+
+<h1 id="tensorflow-nvidia-gpu-destegi-ile-ve-keras-kurulumu-215-2-10013636">Tensorflow (NVIDIA GPU Desteği ile) ve Keras Kurulumu (215-2-10013636)</h1>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Aşağıda yazdığım kısımlar konu ile ilgili kendime aldığım notlardır. Bir blog yazısına kıyasla daha az özenle yazılmıştır. Faydalı olması için paylaşıyorum.</p>
+</div>
+<p>Doküman Kasım 2017 içinde hazırlandı. Sürümler şu şekilde:</p>
+<ul>
+<li>Tensorflow 1.4</li>
+<li>CUDA 8.0</li>
+<li>cuDNN v6.0 for CUDA 8.0</li>
+<li>Python 3.6.3 64 bit</li>
+<li>Keras 2.1.1</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>64-bit sistemlerde denendi yazılanlar.</p>
+</div>
+<h2 id="windows-10-icin">Windows 10 İçin</h2>
+<p>Win 7’ye kıyasla özel bir şey yok. Sadece bazı yerlerdeki Win 7 sürümleri yerine Win 10 sürümleri kurulmalı. Win 7 kısmını okurken nerede Win 10 için ayrı yazılım indirmeniz gerektiği anlaşılıyor olmalı.</p>
+<h2 id="windows-7-icin">Windows 7 İçin</h2>
+<h3 id="nvidia-araclarnn-kurulumu">Nvidia Araçlarının Kurulumu</h3>
+<h4 id="cuda-80">CUDA 8.0</h4>
+<ol>
+<li>İlk olarak ekran kartımızın CUDA desteği olup olmadığına bakıyoruz şu listeden: <a href="https://developer.nvidia.com/cuda-gpus">https://developer.nvidia.com/cuda-gpus</a> Tensorflow GPU desteği için CUDA Compute Capability en az 3.0 istiyor (Ref: <a href="https://www.tensorflow.org/install/install_windows">https://www.tensorflow.org/install/install_windows</a>). Eğer ekran kartımız bunu desteklemiyorsa oturup ağlayabiliriz. Şaka şaka, GPU desteksiz kurulabilir Tensorflow. Bu dokümanda yazmadım ama daha basit olacaktır zaten, bodos Tensorflow kurulumu ile devam edilebilir bence.</li>
+<li>Eğer ekran kartımızın desteği ile ilgili bir problem yoksa <a href="https://developer.nvidia.com/cuda-80-ga2-download-archive">https://developer.nvidia.com/cuda-80-ga2-download-archive</a> adresinden işletim sistemimize uygun olan versiyonu indiriyoruz. Installer type olarak "exe(local)" olanı tavsiye ederim. Hem "Base Installer"ı hem de "Patch2" yi kuruyoruz. Başka patch'ler varsa bu doküman hazırlandıktan sonra çıkan onları da kurun bence. Tabii ilk önce “Base Installer” sonra sırası ile (varsa birden fazla) patch'ler kurulmalı. An itibariyle sürüm <strong>CUDA 8.0.61</strong>. CUDA'nın kurulumu biraz uzun sürebiliyor ve restart etmek gerekiyor bilgisayarı.</li>
+</ol>
+<h3 id="python">Python</h3>
+<ol>
+<li>Python sitesinden Tensorflow'un istediği Python sürümü indirilir (Ref: <a href="https://www.tensorflow.org/install/install_windows">Link</a>). An itibariyle python-3.6.3-amd64 indirdim.</li>
+<li>Yüklerken "Add Python 3.6 to PATH" seçeneği seçilmelidir. Yükleme lokasyonu olarak <strong>C:/Python36_64</strong> seçtim.</li>
+<li>Eğer yükleme ve PATH'e ekleme başarılı ise, Windows'ta <strong>cmd</strong> ile komut satırı açılır ve <strong>python</strong> yazılır. Bu komut başarı ile çalışmalıdır. PATH'te sorun varsa python bulunamadı diye hata alınır. Python açılınca sürümünün doğru olduğu (3.6.3 gibi) açılan yazılımdan kontrol edilir.</li>
+</ol>
+<h3 id="tensorflow">Tensorflow</h3>
+<ol>
+<li>Tensorflow kurlumu için <code>pip3 install --upgrade tensorflow-gpu</code> komutu <strong>Window cmd</strong>’ye yazılır (python çalıştırıp içine değil). Tabii CUDA desteği eklenemediyse önceki adımlarda ekran kartının eski olması gibi bu durumda GPU’suz seçenekle kurulur. Detaylı bilgi için: <a href="https://www.tensorflow.org/install/install_windows">Link</a></li>
+<li>Yükleme adımı bittikten sonra Tensorflow’un ekosisteminin uygun olup olmadığının kontrol edilmesini öneriyorum. Bunun için <code>tensorflow_self_check.py</code> isimli scripti kullanacağız. <a href="https://gist.github.com/mrry/ee5dbcfdd045fa48a27d56664411d41c">Bunu</a> indiriyoruz ve dosyanın olduğu yerde windows CMD’yi açıp (Shift + Sağ click ve sonra Open Command Window Here veya cmd başlatıp cd ile o klasöre gidiyoruz) <code>pyton tensorflow_self_check.py</code> yazıyoruz.</li>
+<li>Bu noktada muhtemelen cuDNN hatası alınacak. Onun için lütfen hata ayıklama kısmına bakın.</li>
+</ol>
+<h3 id="keras">Keras</h3>
+<ol>
+<li>Keras kurulumu için <code>pip3 install keras</code> yazıyoruz yine Windows CMD’ye (Python shell değil).</li>
+<li>Test etmek için örnek bir kod çalıştıracağız. Kod, MNIST set kullanacak ve MLP networkü eğitecek. <a href="https://github.com/fchollet/keras/blob/master/examples/mnist_mlp.py">Şu</a> adresten ilgili dosyayı indiriyoruz. Diğer python scriptleri çalıştırdığımız gibi <code>python mnist_mlp.py</code> ile çalıştırıyoruz. Not: Bu script ilk olarak MNIST data setini indiriyor internetten. O yüzden ilk çalıştırmada biraz bekletebilir. Daha sonra lokal’deki datayı kullanacaktır.</li>
+<li>Eğer tam data işlenmeye başlanınca bilgisayar "xxx (Nvidia GPU modeli) çıkartılamaz" gibi bir hata verip çakılıyorsa ve PC donuyorsa <strong>Hata Ayıklama</strong> kısmına bakın.</li>
+</ol>
+<h2 id="hata-ayklama">Hata Ayıklama</h2>
+<h3 id="tensorflow_self_checkpy-ile-cudnn-hatas-alnmas">tensorflow_self_check.py ile CuDNN Hatası Alınması</h3>
+<h4 id="problem">Problem</h4>
+<p><code>pyton tensorflow_self_check.py</code> zaman aşağıdaki hata alınıyor:</p>
+<pre><code class="text">- Could not load 'cudnn64_5.dll'. The GPU version of TensorFlow
+  requires that this DLL be installed in a directory that is named in
+  your %PATH% environment variable. Note that installing cuDNN is a
+  separate step from installing CUDA, and it is often found in a
+  different directory from the CUDA DLLs. You may install the
+  necessary DLL by downloading cuDNN 5.1 from this URL:
+  https://developer.nvidia.com/cudnn
+
+- Could not find cuDNN.
+</code></pre>
+
+<h4 id="cozum">Çözüm</h4>
+<ol>
+<li>Bu korkulacak bir şey değil. Sistemimize birkaç şey daha kurmamız gerekiyor. <a href="https://developer.nvidia.com/cudnn">Şu</a> adrese gidelim.</li>
+<li>Ne yazık ki bu noktada NVidia üyelik istiyor. Üye oluyoruz.</li>
+<li>Lisans anlaşmasını kabul ediyoruz.</li>
+<li>TensorFlow sürümümüz 1.3’ten büyük olduğu için cuDNN v6’yı indirmemiz gerekiyor. Script bize v5 kurun dese de v5’i kurunca bu sefer v6 kurmalıydın ama yanlış oldu diyor. O yüzden an itibariyle şunu indirmeliyiz: <strong>Download cuDNN v6.0 (April 27, 2017), for CUDA 8.0</strong>.</li>
+<li>Buradan işletim sistemimize uygun olanı seçiyoruz: <strong>cuDNN v6.0 Library for Windows 7, cuDNN v6.0 Library for Windows 10</strong> gibi…</li>
+<li>İndirdiğimiz zip dosyasını güzel bir yere extract ediyoruz. Mesela <code>C:\cuDNN60_CUDA80</code> gibi. Bu klasörün altında 3 adet klasörümüz oluyor: <code>bin</code>, <code>include</code> ve <code>lib</code>.</li>
+<li>Daha sonra yüklediğimiz yerin bin dosyası sistemin PATH’ine eklenir: <code>C:\cuDNN60_CUDA80\bin</code> gibi.</li>
+<li>PATH ekleme işleminden sonra PC’ye restart atmamız gerekiyor.</li>
+<li>Restart sonrası <code>tensorflow_self_check.py</code> tekrar çalıştırılarak kontrol edilir. Hatanın gitmiş olması gerekir.</li>
+</ol>
+<h3 id="tensorflowun-islem-yapmaya-basladg-srada-windowsun-ekran-kartnn-ckarlamayacagn-soylemesi-ve-taklmas">Tensorflow'un İşlem Yapmaya Başladığı Sırada Windows'un Ekran Kartının Çıkarılamayacağını Söylemesi ve Takılması</h3>
+<h4 id="problem_1">Problem</h4>
+<p>Ekran kartı kullanılmaya başlandığı anda PC takılıyor ve "hard reset" yapmadan çalışmıyor. Bu bende Nvidia 650M’de görüldü. Optimus teknolojisi ile de alakalı olabilir.</p>
+<h4 id="cozum_1">Çözüm</h4>
+<p>Bence problemin kaynağı CUDA'nın kurulduğu anda ekran kartı sürücüleri ile oynaması. Benim durumumda son sürüm sürücüleri Nvidia sitesinden indirmek problemi çözdü. Fakat internette başka yazılımlarda (Adobe Premier gibi) sorun yaşayanlar olmuş. Onların bir kısmı BIOS'tan optimus'u kapatmış, kimisi Nvidia ayarlarından kendi yazılımları için sürekli Nvidia GPU’yu kullan diye ayar yapmış (bizim durumda bu python.exe oluyor). Net bir çözümü yok, biraz doğaçlama yapmak gerekecek böyle bir sorunda.</p></div>
+        
+        
+    </div>
+
+    <footer class="col-md-12 text-center">
+        
+<hr>
+<p>
+    <small>License: <a href='https://creativecommons.org/licenses/by-sa/4.0/'>CC-BY-SA-4.0</a></small><br>
+
+
+    <small><i>Created on 2018-02-10</i></small><br>
+
+
+    <small><i>Last Updated on 2020-01-25</i></small><br>
+
+<small>Built with <a href="http://www.mkdocs.org/">MkDocs</a> version 1.0.4 on 2020-02-16 18:12:49 UTC.</small><br>
+<img src="https://img.shields.io/uptimerobot/ratio/m784066757-5d6b061dfaf9531f911b85ca.svg"/>
+<a href="https://github.com/alperyazar/www/graphs/commit-activity"><img src="https://img.shields.io/github/commit-activity/m/alperyazar/www.svg"/></a>
+<img src="https://img.shields.io/github/last-commit/alperyazar/www/master"/>
+<img src="https://img.shields.io/github/repo-size/alperyazar/www"/>
+<img src="https://img.shields.io/github/license/alperyazar/www"/>
+</p>
+
+    </footer>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../../../js/bootstrap-3.0.3.min.js"></script>
+    
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/highlight.min.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/languages/matlab.min.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/languages/latex.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+    <script>var base_url = "../../.."</script>
+    
+    <script src="../../../js/base.js"></script>
+    <script src="../../../search/main.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+    </body>
+
+</html>
