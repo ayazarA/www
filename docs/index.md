@@ -37,7 +37,7 @@ Publons: [E-7451-2019](https://publons.com/researcher/E-7451-2019/)
     - Minor Field: Telecommunication
   - **M.Sc**., Electrical and Electronics Engineering, Middle East Technical University (METU), Ankara, TURKEY, **2015**. CGPA: 3.64/4.00
     - Thesis Topic: Application of F-test Method on Model Order Selection and Related Problems. [Link](http://library.metu.edu.tr/search~S4?/cV.EE+.15-53/cv.ee+.15+53/-3%2C-1%2C0%2CE/frameset&FF=cv.ee+.15+53&1%2C1%2C)
-    - Advisor: [Prof. Cağatay Candan](http://users.metu.edu.tr/ccandan)
+    - Advisor: [Prof. Çağatay Candan](http://users.metu.edu.tr/ccandan)
     - Area of Study: Statistical Signal Processing
   - **B.Sc.**, Electrical and Electronics Engineering, Middle East Technical University (METU), Ankara, TURKEY, **2012**. CGPA: 3.93/4.00
     - Specialization: Computers and Telecommunication
