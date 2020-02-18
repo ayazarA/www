@@ -141,7 +141,7 @@ In 2015 METU EEE Graduate Research Workshop (GRW).
 - [İBTÇ](project/ibtc/index.md) (tamamlandı, terk edildi)
 - [Sureli2Calibre](project/sureli2calibre/index.md) (completed)
 - [aPCMeter](/project/apcmeter) (completed)
-- [isoUSBRS422](/project/isousbrs422) (completed)
+- [isoUSBRS422](project/isousbrs422/index.md) (completed)
 - [FPGA232KU](/project/fpga232ku) (completed)
 - [devre.org, devreler.org](/project/devreorg-devrelerorg) (incomplete, old)
 - [NASuX, nasux.org](/project/nasux) (incomplete, old)
