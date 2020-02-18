@@ -6,10 +6,10 @@
     <small>{{ config.copyright }}</small><br>
 {% endif %}
 {% if page.meta.date %}
-    <small><i>Created on {{ page.meta.date }}</i></small><br>
+    <small><i>Created on <span itemprop="datePublished" content="{{ page.meta.date }}">{{ page.meta.date }}</span></i></small><br>
 {% endif %}
 {% if page.meta.revision_date %}
-    <small><i>Last Updated on {{ page.meta.revision_date }}</i></small><br>
+    <small><i>Last Updated on <span itemprop="dateModified" content="{{ page.meta.revision_date }}">{{ page.meta.revision_date }}</span></i></small><br>
 {% endif %}
 <small>Built with <a href="http://www.mkdocs.org/">MkDocs</a> version {{ mkdocs_version }} on {{ build_date_utc }} UTC.</small><br>
 <img src="https://img.shields.io/uptimerobot/ratio/m784066757-5d6b061dfaf9531f911b85ca.svg"/>
