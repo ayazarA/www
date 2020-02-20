@@ -9,7 +9,9 @@ files and detailed explanation are given on the
 [Github repository](https://github.com/alperyazar/isoUSBRS422). In addition to
 project files, some project steps are given in the following log posts.
 
-## Log (Newest to Oldest)
+## Log
+
+Newest to Oldest
 
 * [isoUSBRS422 project is featured on Dangerous Prototypes](2015-12-29-isousbrs422-dangerous-prototypes.md)
 * [isoUSBRS422 is on EEVblog "Mailbag" (+my comments)](2015-12-26-isousbrs422-is-on-eevblog-mailbag.md)
