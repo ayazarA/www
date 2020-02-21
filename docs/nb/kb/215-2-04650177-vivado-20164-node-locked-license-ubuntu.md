@@ -1,3 +1,6 @@
+---
+date: 2019-10-04
+---
 # Vivado 2016.4 Node Locked License Not Working on Ubuntu 16.04 (215-2-04650177)
 
 ## Symptoms

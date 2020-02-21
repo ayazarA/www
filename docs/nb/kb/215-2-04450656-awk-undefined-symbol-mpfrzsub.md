@@ -1,3 +1,6 @@
+---
+date: 2019-10-04
+---
 # awk: symbol lookup error: awk: undefined symbol: mpfr_z_sub (215-2-04450656)
 
 ## Symptoms

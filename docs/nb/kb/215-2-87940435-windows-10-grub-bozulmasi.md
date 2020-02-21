@@ -1,3 +1,6 @@
+---
+date: 2019-08-17
+---
 # Windows 10 1803->1903 Yükseltmesi Sırasında GRUB’un Bozulması (215-2-87940435)
 
 ## Sorun
