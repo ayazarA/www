@@ -193,7 +193,7 @@ In 2015 METU EEE Graduate Research Workshop (GRW).
 - **2016.** Vivado HLS, PLC2, 1 day.
 - **2015.** Mentor Graphics Workshop Day, CDT, 1 day.
 - **2015.** Easy Start FPGA, PLC2, 1 day.
-- **2014.** Mentor Grapgics Workshop Day, CDT, 1 day.
+- **2014.** Mentor Graphics Workshop Day, CDT, 1 day.
 
 #### Online
 
