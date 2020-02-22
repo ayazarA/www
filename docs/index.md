@@ -145,7 +145,7 @@ In 2015 METU EEE Graduate Research Workshop (GRW).
 - [FPGA232KU](project/fpga232ku/index.md) (tamamlandı)
 - [devre.org, devreler.org](/project/devreorg-devrelerorg) (incomplete, old)
 - [NASuX, nasux.org](/project/nasux) (incomplete, old)
-- [devrelerhakkinda.com](/project/devrelerhakkinda) (old)
+- [devrelerhakkinda.com](project/devrelerhakkinda/index.md) (eski)
 - [kapasitans.com](/project/kapasitans) (incomplete, old)
 - [izoyazilim.com](/project/izoyazilim) (incomplete, old)
 - [izoelektronik.com](project/izoelektronik/index.md) (eski)
