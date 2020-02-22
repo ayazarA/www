@@ -197,7 +197,8 @@ In 2015 METU EEE Graduate Research Workshop (GRW).
 
 #### Online
 
-To be written...
+!!! todo
+    To be written...
 
 ## Memberships
 
