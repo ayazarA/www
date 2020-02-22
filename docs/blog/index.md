@@ -19,3 +19,7 @@
 ## 2013
 
 * [Yeni Enstrüman: Elektro Gitar + Amfi](2013-08-11-yeni-enstruman-elektro-gitar-amfi.md)
+
+## 2012
+
+* [Ankara Bitirme Projeleri Sergisi 29 Haziran - 1 Temmuz 2012](2012-05-24-ankara-bitirme-projeleri-sergisi.md)
