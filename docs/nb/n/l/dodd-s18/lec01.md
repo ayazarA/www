@@ -18,8 +18,6 @@ date: 2019-03-19
 * [@hamming2012numerical]
 * [@hamming1950error]
 
-\bibliography
-
 ## Lecture Minutes
 
 * **29:00** Importance of principled design
@@ -45,3 +43,5 @@ See [ISA](../../../d/i/isa.md) and [microarchitecture](../../../d/m/microarchite
 
 !!! todo
     What are they? 3D array checking?
+
+\bibliography

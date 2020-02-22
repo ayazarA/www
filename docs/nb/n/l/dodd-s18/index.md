@@ -18,5 +18,6 @@ date: 2019-03-15
 ## Lectures
 
 * [Lecture 01 - Introduction and Basics](lec01.md)
+* [Lecture 02 - Mysteries in Comp Arch](lec02.md)
 
 \bibliography
