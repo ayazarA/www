@@ -148,7 +148,7 @@ In 2015 METU EEE Graduate Research Workshop (GRW).
 - [devrelerhakkinda.com](/project/devrelerhakkinda) (old)
 - [kapasitans.com](/project/kapasitans) (incomplete, old)
 - [izoyazilim.com](/project/izoyazilim) (incomplete, old)
-- [izoelektronik.com](/project/izoelektronik) (old)
+- [izoelektronik.com](project/izoelektronik/index.md) (eski)
 
 ### Class
 
