@@ -180,7 +180,7 @@ In 2015 METU EEE Graduate Research Workshop (GRW).
 - **2016.** The Programmable Logic Training Course Professional ZYNQ. PLC2, 5 days.
 - **2016.** The Programmable Logic Training Course Professional VHDL. PLC2, 5 days.
 - **2014.** Mentor Graphics DxDesigner Training Course. CDT on behalf of Mentor Graphics, 2.5 days.
-- **2014.** EMC Seminar. Wurth Elektronik GmbH, 1 day.
+- **2014.** EMC Seminar. Würth Elektronik GmbH, 1 day.
 - **2014.** Power Seminar. Linear Technology, 1 day.
 - **2013.** C6000 Embedded Design Workshop using BIOS, Texas Instruments, 5 days.
 
