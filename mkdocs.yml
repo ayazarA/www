@@ -11,6 +11,9 @@ markdown_extensions:
 
 plugins:
   - search
+  - bibtex:
+      bib_file: "ref/refs.bib"
+      cite_style: "pandoc"
 
 theme:
   name: cinder
