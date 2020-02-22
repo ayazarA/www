@@ -15,8 +15,8 @@ plugins:
   - git-revision-date
   - htmlproofer
   - bibtex:
-    bib_file: "ref/refs.bib"
-    cite_style: "pandoc"
+      bib_file: "ref/refs.bib"
+      cite_style: "pandoc"
 
 theme:
   name: cinder
