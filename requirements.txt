@@ -1,4 +1,4 @@
-mkdocs
+mkdocs==1.0.4
 mkdocs-cinder
 mkdocs-git-revision-date-plugin
 mkdocs-htmlproofer-plugin
