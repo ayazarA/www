@@ -19,5 +19,7 @@ date: 2019-03-15
 
 * [Lecture 01 - Introduction and Basics](lec01.md)
 * [Lecture 02 - Mysteries in Comp Arch](lec02.md)
+* [Lecture 03 - Introduction to the Labs and FPGAs](lec03.md)
+
 
 \bibliography
